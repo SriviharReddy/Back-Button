@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Back</string>
+
+    <string name="accessibility_service_description">This service allows the app to perform a global back action to remap a hardware button.</string>
+</resources>
