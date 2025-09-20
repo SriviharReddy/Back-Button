@@ -47,6 +47,13 @@ Once the accessibility service is enabled, you can:
 - Launch the app directly to perform a back action
 - Remap a hardware button to launch this app for quick back navigation
 
+### OnePlus Watch Specific Instructions
+
+For OnePlus Wear OS watches:
+1. Open the "Controls" section in Settings
+2. Open "Multifunction Button"
+3. Choose "Back" under "Press once to open"
+
 ## Technical Details
 
 - Target SDK: 36
