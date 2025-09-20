@@ -32,7 +32,9 @@ This app was primarily built for the OnePlus Watch, which natively lets you rema
 
 ## Setup
 
-1. Install the app on your Wear OS device
+1. Install the app on your Wear OS device using one of these methods:
+   - [Wear OS Tools](https://xdaforums.com/t/tool-all-in-one-tool-for-windows-wear-os-tools-v12-5.4485439/) (for Windows users)
+   - [Wear Installer 2](https://play.google.com/store/apps/details?id=org.freepoc.wearinstaller2) (Android app)
 2. Launch the app
 3. When prompted, go to the Accessibility settings
 4. Enable the "Back Button Service"
