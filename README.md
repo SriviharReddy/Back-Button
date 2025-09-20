@@ -1,10 +1,19 @@
 # Back Button for Wear OS
 
-An Android Wear (Watch) application that adds back button functionality to Wear OS devices by utilizing an accessibility service.
+A Wear OS application that adds back button functionality to Wear OS devices by utilizing an accessibility service.
 
 ## Overview
 
 This app allows users to remap a hardware button (or use the app directly) to perform a global back action on Wear OS devices. It's particularly useful for devices that may not have a dedicated back button or for users who want to customize their navigation experience.
+
+## Device Compatibility
+
+This app was primarily built for the OnePlus Watch, which natively lets you remap the second button to any app. 
+
+**Important Compatibility Notes:**
+- **Samsung watches**: Directly let you assign a back action, so this app is not needed
+- **Google Pixel watches**: Don't let you remap buttons, so this app is useless on these devices
+- **Other brands**: Compatibility varies - some may work with this app, others may have native back button support
 
 ## Features
 
