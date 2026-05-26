@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Back</string>
-
-    <string name="accessibility_service_description">This service allows the app to perform a global back action to remap a hardware button.</string>
+    <string name="accessibility_service_name">Back Button Service</string>
+    <string name="accessibility_service_description">Allows the app to perform a system back action when launched from your watch or a remapped hardware button.</string>
+    <string name="enable_service_prompt">Enable the Back Button accessibility service.</string>
+    <string name="service_not_ready">Service is enabled but not ready yet. Launch Back again.</string>
 </resources>

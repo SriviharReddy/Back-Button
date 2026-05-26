@@ -21,10 +21,8 @@ class BackPressService : AccessibilityService() {
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
-        // This can be empty
     }
 
     override fun onInterrupt() {
-        // This can be empty
     }
 }

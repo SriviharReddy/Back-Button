@@ -32,13 +32,16 @@ This app was primarily built for the OnePlus Watch, which natively lets you rema
 
 ## Setup
 
-1. Install the app on your Wear OS device using one of these methods:
+1. Build the APK with GitHub Actions or install a published artifact:
+   - Push to GitHub and let the `Build APK` workflow generate artifacts
+   - Or trigger it manually with `gh workflow run "Build APK"`
+2. Download the workflow artifact from GitHub and install it on your Wear OS device using one of these methods:
    - [Wear OS Tools](https://xdaforums.com/t/tool-all-in-one-tool-for-windows-wear-os-tools-v12-5.4485439/) (for Windows users)
    - [Wear Installer 2](https://play.google.com/store/apps/details?id=org.freepoc.wearinstaller2) (Android app)
-2. Launch the app
-3. When prompted, go to the Accessibility settings
-4. Enable the "Back Button Service"
-5. Return to the app (or press your remapped hardware button)
+3. Launch the app
+4. When prompted, go to the Accessibility settings
+5. Enable the "Back Button Service"
+6. Launch the app again, or trigger it with your remapped hardware button
 
 ## Usage
 
@@ -58,8 +61,24 @@ For OnePlus Wear OS watches:
 
 - Target SDK: 36
 - Minimum SDK: 30 (Android 11)
-- Built with Kotlin and Jetpack Compose
+- Built with Kotlin
 - Uses `GLOBAL_ACTION_BACK` from AccessibilityService
+
+## GitHub Actions
+
+The repository includes [`.github/workflows/build-apk.yml`](.github/workflows/build-apk.yml) to build both debug and release APKs on:
+
+- pushes to `main` or `master`
+- pull requests
+- manual dispatch
+
+Useful `gh` commands:
+
+```bash
+gh workflow run "Build APK"
+gh run list --workflow "Build APK"
+gh run download --name back-button-apks
+```
 
 ## Permissions
 
